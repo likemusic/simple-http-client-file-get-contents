@@ -1,6 +1,6 @@
 {
-  "name": "likemusic/simple-http-client-fopen",
-  "description": "Simple http-client interface.",
+  "name": "likemusic/simple-http-client-file-get-contents",
+  "description": "\\Likemusic\\SimpleHttpClient\\HttpClientInterface implementation by file_get_contents()",
   "version": "1.0.0",
   "keywords": [
     "http-client",
