@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a78d0e4565699e76c24d03f222dc29a",
+    "content-hash": "9db61908a40e201c8f4e90404aec52f7",
     "packages": [
         {
             "name": "likemusic/simple-http-client",
