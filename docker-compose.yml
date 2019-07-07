@@ -1,9 +1,15 @@
 version: '3'
 
 services:
-  tests:
-    image: php:5.6-cli
-    working_dir: /var/www/tests/tests
+  composer:
+    build: ./docker/composer
+    working_dir: /var/www/file-get-contents
     volumes:
-      - ./:/var/www/tests
-    command: php -f run.php
+      - ./:/var/www/file-get-contents
+
+  tests:
+    image: php:7.1-cli
+    working_dir: /var/www/file-get-contents
+    volumes:
+      - ./:/var/www/file-get-contents
+    command: ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/SimpleHttpClientTest
