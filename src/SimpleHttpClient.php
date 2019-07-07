@@ -1,6 +1,6 @@
 <?php
 
-namespace Likemusic\SimpleHttpClientFopen;
+namespace Likemusic\SimpleHttpClient\FileGetContents;
 
 use Likemusic\SimpleHttpClient\HttpClientInterface;
 

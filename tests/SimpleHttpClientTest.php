@@ -1,8 +1,10 @@
 <?php
 declare(strict_types=1);
 
+namespace Likemusic\SimpleHttpClient\FileGetContents\Tests;
+
 use PHPUnit\Framework\TestCase;
-use Likemusic\SimpleHttpClientFopen\SimpleHttpClient;
+use Likemusic\SimpleHttpClient\FileGetContents\SimpleHttpClient;
 
 /**
  * Class SimpleHttpClientTest

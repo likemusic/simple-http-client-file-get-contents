@@ -27,7 +27,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Likemusic\\SimpleHttpClientFopen\\": "src/"
+      "Likemusic\\SimpleHttpClient\\FileGetContents\\": "src/",
+      "Likemusic\\SimpleHttpClient\\FileGetContents\\Tests\\": "tests/"
     }
   },
   "authors": [
