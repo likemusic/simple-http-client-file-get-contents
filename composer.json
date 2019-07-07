@@ -16,6 +16,9 @@
     "php": ">=7.1.0",
     "likemusic/simple-http-client": "dev-master"
   },
+  "require-dev": {
+    "phpunit/phpunit" : "^7"
+  },
   "repositories": [
     {
       "type": "vcs",
