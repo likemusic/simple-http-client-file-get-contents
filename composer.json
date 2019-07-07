@@ -1,0 +1,36 @@
+{
+  "name": "likemusic/simple-http-client-fopen",
+  "description": "Simple http-client interface.",
+  "version": "1.0.0",
+  "keywords": [
+    "http-client",
+    "http",
+    "client",
+    "fopen"
+  ],
+
+  "license": "private",
+  "type": "project",
+
+  "require": {
+    "php": ">=7.1.0",
+    "likemusic/simple-http-client": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/simple-http-client.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Likemusic\\SimpleHttpClientFopen\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Valerij Ivashchenko",
+      "email": "likemusicdev@gmail.com"
+    }
+  ]
+}
