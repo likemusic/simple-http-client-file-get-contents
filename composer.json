@@ -10,7 +10,7 @@
   ],
 
   "license": "private",
-  "type": "project",
+  "type": "library",
 
   "require": {
     "php": ">=7.1.0",
