@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:likemusic/simple-http-client.git",
-                "reference": "19fdbe92b1b6ce7934a1b656ef82f5040079b83a"
+                "reference": "96b6fc07a0f299e28a72590091593b891beed3ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/19fdbe92b1b6ce7934a1b656ef82f5040079b83a",
-                "reference": "19fdbe92b1b6ce7934a1b656ef82f5040079b83a",
+                "url": "https://api.github.com/repos/likemusic/simple-http-client/zipball/96b6fc07a0f299e28a72590091593b891beed3ef",
+                "reference": "96b6fc07a0f299e28a72590091593b891beed3ef",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.33"
+                "php": ">=7.0.0"
             },
             "type": "library",
             "autoload": {
@@ -48,7 +48,7 @@
                 "source": "https://github.com/likemusic/simple-http-client/tree/master",
                 "issues": "https://github.com/likemusic/simple-http-client/issues"
             },
-            "time": "2019-08-28T10:03:52+00:00"
+            "time": "2019-08-28T19:02:15+00:00"
         }
     ],
     "packages-dev": [
