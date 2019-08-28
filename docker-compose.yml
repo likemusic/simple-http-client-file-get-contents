@@ -2,13 +2,13 @@ version: '3'
 
 services:
   composer:
-    build: ./docker/composer
+    image: composer:latest
     working_dir: /var/www/file-get-contents
     volumes:
       - ./:/var/www/file-get-contents
 
   tests:
-    image: php:7.1-cli
+    image: php:7.0.33-cli
     working_dir: /var/www/file-get-contents
     volumes:
       - ./:/var/www/file-get-contents

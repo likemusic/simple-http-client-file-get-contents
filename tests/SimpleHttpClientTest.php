@@ -14,7 +14,7 @@ final class SimpleHttpClientTest extends TestCase
     const DEFAULT_URL = 'http://example.com/';
     const DEFAULT_URL_REFERENCE_CONTENT_FILENAME = 'tests/Fixtures/example.com.html';
 
-    public function testGetUrlContent():void
+    public function testGetUrlContent()
     {
         $client = new SimpleHttpClient();
         $urlContent = $client->getUrlContent(self::DEFAULT_URL);
